@@ -5,7 +5,7 @@ new Typewriter(txtAnim,{
 
 .typeString('Je Suis CHARLES Olive, ')
 .pauseFor(800)
-.typeString('<strong>Développeur Web / mobile')
+.typeString('<strong>Développeur Web')
 .start();
 
 const txt = document.getElementById('txt');
