@@ -1,0 +1,326 @@
+.cont-hob{
+	display: flex;
+	/* border: solid; */
+	justify-content: center;
+	margin: 15px;
+	padding: 20px;
+}
+.cont-hob p{
+	
+	margin: 15px;
+	padding: 30px;
+}
+.link:hover{
+color: #78d741;
+border: #78d741 solid 1px;
+border-radius: 100%;
+}
+.link{
+	width:3%; 
+	cursor:pointer;
+}
+.mt-5 {
+	margin-top: 3rem !important;
+  }
+  @media (min-width: 576px) {
+	.sticky-sm-top {
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1020;
+	}
+  }
+  @media (min-width: 768px) {
+	.sticky-md-top {
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1020;
+	}
+  }
+  @media (min-width: 992px) {
+	.sticky-lg-top {
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1020;
+	}
+  }
+  @media (min-width: 1200px) {
+	.sticky-xl-top {
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1020;
+	}
+  }
+  @media (min-width: 1400px) {
+	.sticky-xxl-top {
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  z-index: 1020;
+	}
+  }
+  @media (max-width: 1399.98px) {
+	.modal-fullscreen-xxl-down {
+	  width: 100vw;
+	  max-width: none;
+	  height: 100%;
+	  margin: 0;
+	}
+}
+	@media (max-width: 1199.98px) {
+		.modal-fullscreen-xl-down {
+		  width: 100vw;
+		  max-width: none;
+		  height: 100%;
+		  margin: 0;
+		}
+		 }
+@media (min-width: 1200px) {
+			.list-group-horizontal-xl {
+			  flex-direction: row;
+			}
+}
+
+.github{
+	background:rgb(255, 255, 255);
+}
+.sql{
+	background: rgb(255, 255, 255);;
+}
+.z_log{
+	display: flex;
+	position: relative;
+	justify-content:center;
+}
+
+.z_log img:hover{
+	opacity: 0.7;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	background-color:#e9eaed;
+	font-family:arial;
+	overflow: hidden;
+	width: 700%;
+	background-image: url("");
+	font-family:'Times New Roman', Times, serif;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: -25% 0;
+	font-size: 1em;
+}
+
+section{
+	margin-top: 55px;
+	background-image: url(.jpg);
+	width: 14.2857143%;
+	height:100%;
+	float:left;
+	display: flex;
+    flex-flow: column nowrap;
+	justify-content: space-around;
+	
+}
+
+
+#separ1{
+	border: 1px solid rgb(91, 236, 72);
+	margin : 5px 8% 20px 8%;
+}
+
+
+aside h1{
+	text-align: center;
+	font-size: 1.9em;
+	margin: 10px 0 0 0;
+}
+
+aside h2{
+	font-size: 1.5em;
+	margin: 0 0 20px 0;
+}
+
+aside{
+	
+	width: 80%;
+	margin: auto;
+	font-size:19px;
+}
+
+/*SKILLS*/
+
+#_1 h1{
+	text-align: center;
+	margin: 0 0 0 0;
+}
+
+#tech{
+	margin-top: 40px;
+	display: flex;
+    flex-flow: row wrap;
+	justify-content: space-around;
+	height:450px;
+}
+.ph:hover{
+	opacity:0.9;
+}
+.ph{
+	border-radius: 50%;
+	border: 1px solid rgb(36, 203, 253);
+	/* background-image: linear-gradient(35deg, #CCFFFF, #d2ffcc,#84ffff, rgb(204, 204, 255));
+	opacity: 0.6; */
+	/* background: #fff; */
+}
+.github{
+	background: #fff;
+}
+._log img{
+	width: 60px;
+	height: 60px;
+	position: relative;
+}
+.icon_git{
+	background: #fff;
+}
+.php{
+	top: 10px;
+	background: #fff;
+}
+.boots{
+	bottom: 20px;
+}
+.z_log img{
+	width: 30px;
+	height: 30px;
+	position: relative;	
+	margin:5px;
+	padding: 10px;
+	border: 1px solid rgb(36, 203, 253);
+	border-radius:5px;
+}
+.angular{
+	bottom: 35px;
+}
+.react{
+	bottom: 30px;
+}
+.laravel{
+	bottom: 5px;
+}
+._pclass{
+	display: flex;
+	justify-content: center;
+}
+._out:hover{
+	opacity:0.7;
+}
+
+.html{
+	top:10px;
+}
+._out{
+border: 1px solid rgb(36, 203, 253);
+border-radius:50%;
+width: 100px;
+height: 100px;
+z-index:200;
+position: relative;
+top: 100px;
+display: flex;
+margin:35px;
+}
+ul li a{
+	color: rgb(140, 236, 240);
+}
+#tech span{
+	float: right;
+}
+
+.bar{
+	margin-bottom:15px;
+	clear: both;
+	color:#fff;
+}
+
+.bar i{
+	margin-top:5px;
+	font-size: 0.9em;
+	position: relative;
+	right: 14%;
+	z-index:10;
+}
+
+progress {
+	height: 18px;
+	width: 50%;
+	float: left;
+	background-color : white;
+	position: relative;
+	bottom: 20px;
+	left: 35%;
+	z-index:1;
+}
+
+progress::-webkit-progress-bar { 
+    background-color : white;
+}
+progress::-webkit-progress-value {  
+    background-color : #78d741;
+} 
+progress::-moz-progress-bar { 
+    background-color : #84d741;
+}
+
+/*Hobbies*/
+#_z{
+	background-image:url("showcase.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: #fff;
+	border-radius:10px;
+}
+
+
+/*flèche du bas*/
+
+.arrowr {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	position: fixed;
+	right: 20px;
+	top: 50%;
+	margin-top: -35px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.85);
+	border-radius: 150px;
+	z-index:10;
+}
+
+
+/*fleche du haut*/
+
+.arrowl {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	text-align:center;
+	position: fixed;
+	left: 20px;
+	top: 50%;
+	margin-top: -35px;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.85);
+	border-radius: 150px;
+	z-index:10;
+}
